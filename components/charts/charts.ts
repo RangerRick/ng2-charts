@@ -4,8 +4,7 @@ import {
   EventEmitter, ElementRef, Input
 } from 'angular2/core';
 import {CORE_DIRECTIVES, FORM_DIRECTIVES, NgClass} from 'angular2/common';
-
-declare var Chart:any;
+import * as Chart from 'chart.js/Chart.min.js';
 
 @Component({
   selector: 'chart, canvas[chart]',
