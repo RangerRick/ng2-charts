@@ -1,3 +1,6 @@
+# Fork notice
+Please note this is a fork of valor-software/ng2-charts, all the docs from here down are from them, the only fix in this repo is to import charts directly in the component so webpack can use it without need of importing it with html scripts.
+
 # ng2-charts [![npm version](https://badge.fury.io/js/ng2-charts.svg)](http://badge.fury.io/js/ng2-charts)
 Beautiful charts for Angular2 based on Chart.js
 
